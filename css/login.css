@@ -1,0 +1,18 @@
+.container-fluid {
+  background-image: url(../images/triumph-bg.jpg);
+}
+
+.login {
+  padding-top: 1em;
+}
+
+.fname,
+.lname {
+  color: white;
+  margin-bottom: 1em;
+}
+
+.fnameEntry,
+.lnameEntry {
+  margin-bottom: 1em;
+}
