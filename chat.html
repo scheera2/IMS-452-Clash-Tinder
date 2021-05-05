@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Clash Tinder Login</title>
+    <title>Clash Tinder</title>
 
     <!-- Link to local styles -->
     <link
@@ -23,8 +23,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
+    <link rel="stylesheet" href="./css/chat.css" type="text/css" />
     <link rel="stylesheet" href="./css/style.css" type="text/css" />
-    <link rel="stylesheet" href="./css/login.css" type="text/css" />
 
     <link
       rel="stylesheet"
@@ -33,6 +33,7 @@
       crossorigin="anonymous"
     />
   </head>
+
   <body>
     <header>
       <div class="container">
@@ -46,7 +47,7 @@
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="chat.html">
                 <i
                   class="fa fa-comment"
                   style="font-size: 32px; color: white"
@@ -59,7 +60,7 @@
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="settings.html">
                 <i class="fa fa-gear" style="font-size: 32px; color: white"></i>
               </a>
             </li>
@@ -68,18 +69,77 @@
       </div>
     </header>
 
-    <div class="container-fluid">
-      <div class="col-md" align="center">
-        <form class="login">
-          <label class="fname" for="fname">First name:</label><br />
-          <input class="fnameEntry" type="text" id="fname" name="fname" /><br />
-          <label class="lname" for="lname">Last name:</label><br />
-          <input class="lnameEntry" type="text" id="lname" name="lname" />
-        </form>
+    <div class="bg">
+      <div class="time">
+        <span><h3>Seltiar</h3></span>
       </div>
-    </div>
 
-    <script src="./js/script.js"></script>
+      <div class="message sol">
+        <div
+          class="resim"
+          style="background-image: url('./images/Champions/zyraicon.jpg')"
+        ></div>
+        <div class="messageText" data-time="10:42">
+          Hey! It looks like we matched
+        </div>
+      </div>
+      <div class="message sag mtLine">
+        <div class="messageText" data-time="10:43">
+          Yeah I saw! What is your discord and or league name? I'll add ya and
+          we can talk :)
+        </div>
+        <div
+          class="resim"
+          style="background-image: url('./images/Champions/ireliaicon.jpg')"
+        ></div>
+      </div>
+      <div class="message sol mtLine">
+        <div
+          class="resim"
+          style="background-image: url('./images/Champions/zyraicon.jpg')"
+        ></div>
+        <div class="messageText" data-time="10:45">Sure!</div>
+      </div>
+      <div class="message sol">
+        <div
+          class="resim"
+          style="background-image: url('./images/Champions/zyraicon.jpg')"
+        ></div>
+        <div class="messageText" data-time="10:45">
+          my discord is LeagueGaming#1287
+        </div>
+      </div>
+      <div class="message sol mtLine">
+        <div
+          class="resim"
+          style="background-image: url('./images/Champions/zyraicon.jpg')"
+        ></div>
+        <div class="messageText" data-time="10:58">
+          my league name is LeagueGaming#NA1
+        </div>
+      </div>
+      <div class="message sol">
+        <div
+          class="resim"
+          style="background-image: url('./images/Champions/zyraicon.jpg')"
+        ></div>
+        <div class="messageText" data-time="11:01">
+          Exicted to have you on the team!
+        </div>
+      </div>
+
+      <form action="/action_page.php" align="center">
+        <label for="fname"></label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Enter a message.."
+        />
+      </form>
+    </div>
+    <!-- Scripts to decrease load time of pages or implement JS file-->
+
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
